@@ -1,9 +1,10 @@
 import * as React from 'react';
+import Home from '../home/Home';
 
 export default function Details() {
   return (
     <div>
-        <h1>this is Details</h1>
+      <Home />
     </div>
   );
 }
