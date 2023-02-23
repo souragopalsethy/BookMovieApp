@@ -24,7 +24,7 @@ export default function Header() {
     background: '#2E3B44'
   };
   return (
-    <Box sx={{ flexGrow: 4 }}>
+    <Box sx={{ flexGrow: 4, position: 'static' }}>
       <AppBar position="static" style={{ background: '#000000' }}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>

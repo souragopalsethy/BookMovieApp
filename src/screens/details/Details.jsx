@@ -4,7 +4,7 @@ import Home from '../home/Home';
 export default function Details() {
   return (
     <div>
-      <Home />
+      Details Page
     </div>
   );
 }

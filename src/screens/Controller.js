@@ -19,7 +19,7 @@ const Controller = () => {
           element={<Home />}
         />
         <Route
-          path="/movie"
+          path="/movie/:id"
           element={<Details />}
         />
         <Route
